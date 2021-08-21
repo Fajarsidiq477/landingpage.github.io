@@ -1,0 +1,155 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.btn {
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: .6em 1.4em;
+    background: rgb(255,220,107);
+    background: linear-gradient(90deg, rgba(255,220,107,1) 0%, rgba(255,117,69,1) 100%);
+}
+
+.main-wrapper {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("../img/background\ 1.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+    padding: 3em 0;
+}
+
+.bg-shape {
+    position: absolute;
+    width: 45em;
+    right: 0em;
+    bottom: 1em;
+}
+
+.logo {
+    float: left;
+}
+
+.logo p {
+    color: #3949ab;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: .3em;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 2.25em;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.main-wrapper-content {
+    margin-top: 5em;
+    width: 26.3em;
+    /* background: red ; */
+}
+
+.main-wrapper-content h1{
+    color: #3949ab;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    letter-spacing: .2em;
+    /* text-align: justify; */
+    font-weight: 900;
+}
+
+.main-wrapper-content h1:nth-child(2) {
+    letter-spacing: .23em;
+    border-bottom: .1em solid  #3949ab;
+    padding-bottom: .2em;
+}
+
+.main-wrapper-content p {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.5em;
+    text-align: justify;
+    color: #3949ab;
+}
+
+.main-wrapper-content a {
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.mobile-menu {
+    display: none;
+}
+
